@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.bastisapp.kartero" versionCode="1.7.1" version="1.7.1">
-  <name>Kartero</name>
+<widget xmlns="http://www.w3.org/ns/widgets"
+  xmlns:gap="http://phonegap.com/ns/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  id="com.forba.io"
+  versionCode="1.7.1"
+  version="1.7.1">
+  <name>Forba Driver</name>
   <description>
-        Kartero Driver App
+       Forba Driver App
     </description>
-  <author email="bastikikang@gmail.com" href="http://cordova.io">
-        bastisapp.com
+  <author email="forbag@forba.io" href="http://cordova.io">
+        forba.io
     </author>
   <content src="index.html"/>
   <preference name="orientation" value="portrait"/>
@@ -22,7 +27,7 @@
     <application android:theme="@android:style/Theme.NoTitleBar">
         </application>
   </gap:config-file>
-  
+
   <platform name="ios">
   <config-file parent="UIBackgroundModes" target="*-Info.plist">
       <array>
@@ -35,7 +40,7 @@
         <string>processing</string>
       </array>
     </config-file>
-  
+
     <config-file platform="ios" target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
       <string>This allows us to use your location to provide you a nearby restaurant, and to facilitate more accurately, keeping you in the loop about Kartero.</string>
     </config-file>
@@ -43,7 +48,7 @@
       <string>This allows us to use your location to provide you a nearby restaurant, and to facilitate more accurately, keeping you in the loop about Kartero.</string>
     </config-file>
     <preference name="orientation" value="portrait"/>
-  
+
   <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
     <string>Enable Kartero to access your camera to take photos of you and to save as profile picture.</string>
   </edit-config>
@@ -79,12 +84,12 @@
   </edit-config>
   <edit-config target="NSMotionUsageDescription" file="*-Info.plist" mode="merge">
     <string>Improve location accuracy when finding nearby restaurant</string>
-  </edit-config>                                        
+  </edit-config>
   </platform>
-      
-  
+
+
   <platform name="android">
-  
+
   <config-file parent="/manifest/application" target="app/src/main/AndroidManifest.xml">
       <meta-data android:name="com.transistorsoft.locationmanager.license_key" android:value="YOUR_LICENSE_KEY_HERE"/>
       <service android:name="com.transistorsoft.locationmanager.service.TrackingService" android:foregroundServiceType="location"/>

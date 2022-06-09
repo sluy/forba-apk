@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "695616960276",
+    "project_id": "forba-final",
+    "storage_bucket": "forba-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695616960276:android:d16c63c3af839e148df401",
+        "android_client_info": {
+          "package_name": "com.forba.io"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695616960276-rp9im8f76e2pbhskj1smlkfsk6m60o4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTZXB-f3mclk9ProHFhBDy4vs0iHPWRQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695616960276-rp9im8f76e2pbhskj1smlkfsk6m60o4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
